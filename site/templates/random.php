@@ -6,7 +6,10 @@
 <html>
 <?php snippet('html-head') ?>
 <body>
-<pre><code><?= html(Kirby\Http\Remote::get('https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/site/templates/random.php')->content()) ?></code></pre>
+<pre><code><?=
+    lapse(md5($page->id()), function() {
+      return html(Kirby\Http\Remote::get('https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/site/templates/random.php')->content());
+    }); ?></code></pre>
 <p>
 <?php
 // STRING

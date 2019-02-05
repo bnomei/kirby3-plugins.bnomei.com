@@ -6,7 +6,10 @@
 <html>
 <?php snippet('html-head') ?>
 <body>
-<pre><code><?= html(Kirby\Http\Remote::get('https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/site/templates/mobile-detect.php')->content()) ?></code></pre>
+<pre><code><?=
+    lapse(md5($page->id()), function() {
+      return html(Kirby\Http\Remote::get('https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/site/templates/mobile-detect.php')->content());
+    }); ?></code></pre>
 <?php
 $detect = $page->detect();
 // https://github.com/serbanghita/Mobile-Detect/wiki/Code-examples

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "002c1ec60be1132b54940ef9c8989f8f",
+    "content-hash": "fc5c726a789fae00d0b70400c28c3abd",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -147,6 +147,53 @@
                 "token"
             ],
             "time": "2019-02-05T09:37:46+00:00"
+        },
+        {
+            "name": "bnomei/kirby3-lapse",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-lapse.git",
+                "reference": "f3413851b0b4cf8c064c65e3382e2687fc3a1925"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-lapse/zipball/f3413851b0b4cf8c064c65e3382e2687fc3a1925",
+                "reference": "f3413851b0b4cf8c064c65e3382e2687fc3a1925",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.1.0"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "Cache any data until set expiration time",
+            "keywords": [
+                "Simple",
+                "cache",
+                "expire",
+                "key-value",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "performance"
+            ],
+            "time": "2019-02-05T23:26:40+00:00"
         },
         {
             "name": "bnomei/kirby3-mobile-detect",
