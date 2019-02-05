@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff2341fe792d721dd20c4db4bc9c4932",
+    "content-hash": "002c1ec60be1132b54940ef9c8989f8f",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -51,6 +51,52 @@
                 "kirby3-plugin"
             ],
             "time": "2019-02-05T17:31:52+00:00"
+        },
+        {
+            "name": "bnomei/kirby3-feed",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-feed.git",
+                "reference": "060a6e8839055bccad317b0f2e167f739a10d2d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-feed/zipball/060a6e8839055bccad317b0f2e167f739a10d2d6",
+                "reference": "060a6e8839055bccad317b0f2e167f739a10d2d6",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.1.0"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "Generate a RSS/JSON-Feed from a Pages-Collection",
+            "keywords": [
+                "feed",
+                "json",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "rss",
+                "rss-feed"
+            ],
+            "time": "2019-02-05T22:59:57+00:00"
         },
         {
             "name": "bnomei/kirby3-instagram",
