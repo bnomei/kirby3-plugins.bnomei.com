@@ -8,8 +8,8 @@
 <body>
 <?php
   $token = env('INSTAGRAM_TOKEN'); // dotenv plugin
-  foreach(site()->instagram($token) as $data) {
-    echo Kirby\Toolkit\Html::img(
+  foreach (site()->instagram($token) as $data) {
+      echo Kirby\Toolkit\Html::img(
       $data['images']['standard_resolution']['url']
     );
   }

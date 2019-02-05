@@ -65,7 +65,12 @@ storage/cache
 storage/accounts
 storage/sessions
 
+### KIRBY 3 Plugins via Composer ###
+site/plugins/kirby3-dotenv
+site/plugins/kirby3-instagram
+
 ### COMPOSER ###
 vendor
 
+### DOTENV ###
 .env

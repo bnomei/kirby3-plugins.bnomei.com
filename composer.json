@@ -10,6 +10,9 @@
     "optimize-autoloader": true
   },
   "scripts": {
+    "fix": [
+      "php-cs-fixer fix"
+    ],
     "deployhq": [
       "composer install --no-progress --no-dev --optimize-autoloader",
       "mv -f public/.htaccess.deploy public/.htaccess"
