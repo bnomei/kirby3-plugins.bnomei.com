@@ -11,7 +11,7 @@
   },
   "scripts": {
     "deployhq": [
-      "php composer.phar install --no-progress --no-dev --optimize-autoloader",
+      "composer install --no-progress --no-dev --optimize-autoloader",
       "mv -f public/.htaccess.deploy public/.htaccess"
     ]
   }
