@@ -1,0 +1,5 @@
+.git
+
+content/**
+public/media/**
+storage/**
