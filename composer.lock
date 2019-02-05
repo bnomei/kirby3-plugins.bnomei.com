@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc5c726a789fae00d0b70400c28c3abd",
+    "content-hash": "c208618ae7f36b531e398cb89a80b733",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -287,6 +287,56 @@
                 "string"
             ],
             "time": "2019-02-05T22:28:20+00:00"
+        },
+        {
+            "name": "bnomei/kirby3-redirects",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-redirects.git",
+                "reference": "0b6ac92256ea0b4b95a5301e827da3591e9aac95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-redirects/zipball/0b6ac92256ea0b4b95a5301e827da3591e9aac95",
+                "reference": "0b6ac92256ea0b4b95a5301e827da3591e9aac95",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.1.0"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "Setup HTTP Status Code Redirects from within the Kirby Panel",
+            "keywords": [
+                "301",
+                "302",
+                "307",
+                "308",
+                "header",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "redirect",
+                "redirects",
+                "status-codes"
+            ],
+            "time": "2019-02-05T23:43:05+00:00"
         },
         {
             "name": "bnomei/kirby3-robots-txt",

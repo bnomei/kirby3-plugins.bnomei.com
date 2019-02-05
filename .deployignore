@@ -2,4 +2,5 @@
 
 content/**
 public/media/**
+site/config/.license
 storage/**
