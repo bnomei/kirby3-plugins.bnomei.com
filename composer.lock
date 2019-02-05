@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07a9cb180f62b26dda2b8e8b0e6b372b",
+    "content-hash": "1ce99f3c4fa7114d2b3631e009779917",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -101,6 +101,45 @@
                 "token"
             ],
             "time": "2019-02-05T09:37:46+00:00"
+        },
+        {
+            "name": "bnomei/kirby3-robots-txt",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-robots-txt.git",
+                "reference": "479549d1e8c3aa4d2aee7263d5344c2141009a22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-robots-txt/zipball/479549d1e8c3aa4d2aee7263d5344c2141009a22",
+                "reference": "479549d1e8c3aa4d2aee7263d5344c2141009a22",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.1.0"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "Manage the robots.txt from the Kirby config file",
+            "keywords": [
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "robots-exclusion-protocol",
+                "robots-txt"
+            ],
+            "time": "2019-02-05T21:35:07+00:00"
         },
         {
             "name": "claviska/simpleimage",
@@ -454,6 +493,64 @@
                 "yml"
             ],
             "time": "2017-02-24T16:06:33+00:00"
+        },
+        {
+            "name": "omz13/kirby3-xmlsitemap",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/omz13/kirby3-xmlsitemap.git",
+                "reference": "fd1e7d299a803db7528842d78f4365b55dc19137"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/omz13/kirby3-xmlsitemap/zipball/fd1e7d299a803db7528842d78f4365b55dc19137",
+                "reference": "fd1e7d299a803db7528842d78f4365b55dc19137",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/cms": "^3.0.0-RC-2.0",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "^1.0",
+                "liip/rmt": "^1.4",
+                "localheinz/composer-normalize": "^1.0.0",
+                "omz13/omz13-coding-standard": "dev-master",
+                "phpcompatibility/php-compatibility": "^8.2",
+                "phpmd/phpmd": "^2.6",
+                "phpstan/phpstan": "^0.10.3",
+                "phpstan/phpstan-strict-rules": "^0.10.1",
+                "roave/security-advisories": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "omz13\\": "src/"
+                },
+                "files": [
+                    "src/config.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Somers",
+                    "email": "dsomers@omz13.com",
+                    "homepage": "https://meldingstuff.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "kirby3 plugin to generate an xml-based sitemap",
+            "keywords": [
+                "Sitemap",
+                "kirby3",
+                "plugin"
+            ],
+            "time": "2019-01-15T23:42:56+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
