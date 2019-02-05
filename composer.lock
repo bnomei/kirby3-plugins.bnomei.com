@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ce99f3c4fa7114d2b3631e009779917",
+    "content-hash": "3a0de59d7e052893f6afedc99e8338b4",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -101,6 +101,55 @@
                 "token"
             ],
             "time": "2019-02-05T09:37:46+00:00"
+        },
+        {
+            "name": "bnomei/kirby3-random",
+            "version": "2.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-random.git",
+                "reference": "4e6c057b081623f4728ac66a37cf9dd15a86eaeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-random/zipball/4e6c057b081623f4728ac66a37cf9dd15a86eaeb",
+                "reference": "4e6c057b081623f4728ac66a37cf9dd15a86eaeb",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "joshtronic/php-loremipsum": "^1.0",
+                "php": ">=7.1.0"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "Kirby Tag and Page Method to generate various random values",
+            "keywords": [
+                "between",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "lorem-ipsum",
+                "number",
+                "pool",
+                "random",
+                "string"
+            ],
+            "time": "2019-02-05T22:28:20+00:00"
         },
         {
             "name": "bnomei/kirby3-robots-txt",
@@ -339,6 +388,52 @@
             "description": "Kirby's custom Composer installer for the Kirby CMS and for Kirby plugins",
             "homepage": "https://getkirby.com",
             "time": "2019-02-05T08:41:05+00:00"
+        },
+        {
+            "name": "joshtronic/php-loremipsum",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joshtronic/php-loremipsum.git",
+                "reference": "e41f4f76303b09b66448100d45a1bfdf695192bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joshtronic/php-loremipsum/zipball/e41f4f76303b09b66448100d45a1bfdf695192bd",
+                "reference": "e41f4f76303b09b66448100d45a1bfdf695192bd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "joshtronic\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Sherman",
+                    "email": "hello@joshtronic.com",
+                    "homepage": "https://joshtronic.com"
+                }
+            ],
+            "description": "Lorem ipsum generator in PHP without dependencies",
+            "homepage": "https://github.com/joshtronic/php-loremipsum",
+            "keywords": [
+                "generator",
+                "ipsum",
+                "lorem"
+            ],
+            "time": "2019-01-03T06:21:50+00:00"
         },
         {
             "name": "league/color-extractor",

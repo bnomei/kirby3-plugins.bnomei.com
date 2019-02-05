@@ -6,6 +6,7 @@
 <html>
 <?php snippet('html-head') ?>
 <body>
+  <?= $page->text()->kirbytext() ?>
   <ul>
     <?php foreach ($site->pages() as $plugin):
       if (in_array($plugin->intendedTemplate(), ['home', 'error'])) {

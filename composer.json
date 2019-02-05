@@ -6,7 +6,8 @@
     "bnomei/kirby3-instagram": "^1.0",
     "bnomei/kirby3-dotenv": "^1.1",
     "bnomei/kirby3-robots-txt": "^1.2",
-    "omz13/kirby3-xmlsitemap": "^1.0"
+    "omz13/kirby3-xmlsitemap": "^1.0",
+    "bnomei/kirby3-random": "^2.3"
   },
   "config": {
     "optimize-autoloader": true
