@@ -4,7 +4,7 @@
 /** @var Kirby\Cms\Page $page */
 ?><!DOCTYPE html>
 <html <?= site()->attrLang() ?>>
-<?php snippet('plugin-htmlhead') ?>
+<head><?php snippet('plugin-htmlhead') ?></head>
 <body>
 <pre><code><?=
     lapse(md5($page->id()), function() {

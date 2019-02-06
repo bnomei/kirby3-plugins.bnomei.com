@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cdfc35efa636f9413c884e26442f1df4",
+    "content-hash": "afd1c2ed852cc5cc70f9af342753237d",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -97,6 +97,52 @@
                 "rss-feed"
             ],
             "time": "2019-02-05T22:59:57+00:00"
+        },
+        {
+            "name": "bnomei/kirby3-fingerprint",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-fingerprint.git",
+                "reference": "de2f73988c7fa25c54c09b36c124b5d9fb78011c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-fingerprint/zipball/de2f73988c7fa25c54c09b36c124b5d9fb78011c",
+                "reference": "de2f73988c7fa25c54c09b36c124b5d9fb78011c",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.1.0"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "File Method and css/js helper to add cachbusting hash and optional Subresource Integrity to file",
+            "keywords": [
+                "Fingerprint",
+                "cache-buster",
+                "hash",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "subresource-integrity"
+            ],
+            "time": "2019-02-06T11:33:27+00:00"
         },
         {
             "name": "bnomei/kirby3-handlebars",
