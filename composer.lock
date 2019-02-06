@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66fd7ccb928c33396ba8904ae356d68d",
+    "content-hash": "5f41b314ee12bc85a756027ed6cd71f0",
     "packages": [
         {
             "name": "bnomei/kirby3-cloudconvert",
@@ -347,6 +347,55 @@
                 "token"
             ],
             "time": "2019-02-05T09:37:46+00:00"
+        },
+        {
+            "name": "bnomei/kirby3-janitor",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-janitor.git",
+                "reference": "93d21441ea496c131a731bb6ee8d31cd09062612"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-janitor/zipball/93d21441ea496c131a731bb6ee8d31cd09062612",
+                "reference": "93d21441ea496c131a731bb6ee8d31cd09062612",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.1.0"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "Kirby 3 Plugin for running jobs like cleaning the cache from within the Panel, PHP code or a cronjob",
+            "keywords": [
+                "ajax",
+                "button",
+                "cache",
+                "clean",
+                "cronjob",
+                "janitor",
+                "job-runner",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin"
+            ],
+            "time": "2019-02-06T15:07:14+00:00"
         },
         {
             "name": "bnomei/kirby3-lapse",

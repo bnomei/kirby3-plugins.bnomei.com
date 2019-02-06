@@ -66,6 +66,7 @@ storage/accounts
 storage/sessions
 
 ### KIRBY 3 Plugins via Composer ###
+site/plugins/kirby3-autoid
 site/plugins/kirby3-cloudconvert
 site/plugins/kirby3-dotenv
 site/plugins/kirby3-feed
@@ -73,6 +74,8 @@ site/plugins/kirby3-fingerprint
 site/plugins/kirby3-handlebars
 site/plugins/kirby3-htmlhead
 site/plugins/kirby3-instagram
+site/plugins/kirby3-janitor
+site/plugins/kirby3-doctor
 site/plugins/kirby3-lapse
 site/plugins/kirby3-mobile-detect
 site/plugins/kirby3-robots-txt

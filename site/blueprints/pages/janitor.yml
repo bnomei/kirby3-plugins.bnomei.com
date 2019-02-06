@@ -1,0 +1,24 @@
+title: Janitor
+
+sections:
+
+  # -----------------------------
+  content:
+    type: fields
+    fields:
+      text:
+        label: Text
+        type: textarea
+        width: 1/2
+      janitor:
+        type: janitor
+        label:
+          en: Clean Cache
+          de: Cache leeren
+        progress: Cleaning Cache...
+        job: clean
+      heist:
+        type: janitor
+        label: Enter Bank
+        progress: Performing Heist...
+        job: heist
