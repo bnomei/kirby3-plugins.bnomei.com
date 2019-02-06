@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc5e6fc61af032f85d531f2560fecd90",
+    "content-hash": "66fd7ccb928c33396ba8904ae356d68d",
     "packages": [
         {
             "name": "bnomei/kirby3-cloudconvert",
-            "version": "1.1.1",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-cloudconvert.git",
-                "reference": "632cf1698eaec03ab2ccbcbd4360b5e47a66df98"
+                "reference": "2300fa1b70c99b608dd0757600697a64e8c439d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-cloudconvert/zipball/632cf1698eaec03ab2ccbcbd4360b5e47a66df98",
-                "reference": "632cf1698eaec03ab2ccbcbd4360b5e47a66df98",
+                "url": "https://api.github.com/repos/bnomei/kirby3-cloudconvert/zipball/2300fa1b70c99b608dd0757600697a64e8c439d3",
+                "reference": "2300fa1b70c99b608dd0757600697a64e8c439d3",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "kirby3-cms",
                 "kirby3-plugin"
             ],
-            "time": "2019-02-06T12:50:25+00:00"
+            "time": "2019-02-06T14:28:11+00:00"
         },
         {
             "name": "bnomei/kirby3-dotenv",
@@ -624,17 +624,66 @@
             "time": "2019-02-06T10:41:10+00:00"
         },
         {
-            "name": "bnomei/kirby3-thumb-imageoptim",
+            "name": "bnomei/kirby3-srcset",
             "version": "1.3.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bnomei/kirby3-thumb-imageoptim.git",
-                "reference": "420e996eadca344b58ccf659e0555b28d3905bc7"
+                "url": "https://github.com/bnomei/kirby3-srcset.git",
+                "reference": "09fa173792b379642281152385a3e54f0e353c39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-thumb-imageoptim/zipball/420e996eadca344b58ccf659e0555b28d3905bc7",
-                "reference": "420e996eadca344b58ccf659e0555b28d3905bc7",
+                "url": "https://api.github.com/repos/bnomei/kirby3-srcset/zipball/09fa173792b379642281152385a3e54f0e353c39",
+                "reference": "09fa173792b379642281152385a3e54f0e353c39",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.1.0"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "Kirby 3 Plugin for creating image srcset using picture or image element",
+            "keywords": [
+                "images",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "lazy",
+                "lazysizes",
+                "load",
+                "picture-element",
+                "source",
+                "srcset"
+            ],
+            "time": "2019-02-06T14:40:30+00:00"
+        },
+        {
+            "name": "bnomei/kirby3-thumb-imageoptim",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-thumb-imageoptim.git",
+                "reference": "aa9cb37d55d80cacec7aa1a347ab8acebb66a162"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-thumb-imageoptim/zipball/aa9cb37d55d80cacec7aa1a347ab8acebb66a162",
+                "reference": "aa9cb37d55d80cacec7aa1a347ab8acebb66a162",
                 "shasum": ""
             },
             "require": {
@@ -668,7 +717,7 @@
                 "thumb",
                 "thumbnail"
             ],
-            "time": "2019-02-06T12:58:49+00:00"
+            "time": "2019-02-06T13:08:42+00:00"
         },
         {
             "name": "claviska/simpleimage",
