@@ -66,6 +66,7 @@ storage/accounts
 storage/sessions
 
 ### KIRBY 3 Plugins via Composer ###
+site/plugins/kirby3-cloudconvert
 site/plugins/kirby3-dotenv
 site/plugins/kirby3-feed
 site/plugins/kirby3-fingerprint
