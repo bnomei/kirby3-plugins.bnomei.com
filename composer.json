@@ -13,7 +13,8 @@
     "bnomei/kirby3-lapse": "^1.0",
     "bnomei/kirby3-redirects": "^1.2",
     "bnomei/kirby3-htmlhead": "^1.7",
-    "bnomei/kirby3-security-headers": "^1.0"
+    "bnomei/kirby3-security-headers": "^1.0",
+    "bnomei/kirby3-handlebars": "^2.1"
   },
   "config": {
     "optimize-autoloader": true

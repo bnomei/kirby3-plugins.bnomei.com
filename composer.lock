@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9380e4f38ea4ce29a9d84d9e03b16176",
+    "content-hash": "cdfc35efa636f9413c884e26442f1df4",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -97,6 +97,57 @@
                 "rss-feed"
             ],
             "time": "2019-02-05T22:59:57+00:00"
+        },
+        {
+            "name": "bnomei/kirby3-handlebars",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-handlebars.git",
+                "reference": "e92232f47b27152d7fec0738c3bcdf423771b2fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-handlebars/zipball/e92232f47b27152d7fec0738c3bcdf423771b2fc",
+                "reference": "e92232f47b27152d7fec0738c3bcdf423771b2fc",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.1.0",
+                "zordius/lightncandy": "1.2.2"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "Kirby 3 Component for semantic templates with Handlebars and Mustache",
+            "keywords": [
+                "cache",
+                "component",
+                "handlebars",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "logic-less",
+                "mustache",
+                "performance",
+                "semantic",
+                "template-engine"
+            ],
+            "time": "2019-02-06T10:55:24+00:00"
         },
         {
             "name": "bnomei/kirby3-htmlhead",
@@ -1406,6 +1457,58 @@
                 "zf"
             ],
             "time": "2018-04-25T15:48:53+00:00"
+        },
+        {
+            "name": "zordius/lightncandy",
+            "version": "v1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zordius/lightncandy.git",
+                "reference": "448cb2855d7301fa5380d8228255d46e9be92903"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zordius/lightncandy/zipball/448cb2855d7301fa5380d8228255d46e9be92903",
+                "reference": "448cb2855d7301fa5380d8228255d46e9be92903",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.35"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LightnCandy\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zordius Chen",
+                    "email": "zordius@gmail.com"
+                }
+            ],
+            "description": "An extremely fast PHP implementation of handlebars ( http://handlebarsjs.com/ ) and mustache ( http://mustache.github.io/ ).",
+            "homepage": "https://github.com/zordius/lightncandy",
+            "keywords": [
+                "handlebars",
+                "logicless",
+                "mustache",
+                "php",
+                "template"
+            ],
+            "time": "2018-03-19T07:06:10+00:00"
         }
     ],
     "packages-dev": [],
