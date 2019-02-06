@@ -1,0 +1,36 @@
+title: Autoid
+
+pages:
+  template: autoidtest
+
+sections:
+  # -----------------------------
+  images:
+    extends: sections/images
+    template: image
+
+  # -----------------------------
+  content:
+    type: fields
+    fields:
+      text:
+        label: Text
+        type: textarea
+        size: large
+      autoid:
+        type: hidden
+      anystructure:
+        label: Structure
+        type: structure
+        fields:
+          text:
+            type: text
+          autoid:
+            type: hidden
+  subpages:
+    type: pages
+    layout: list
+    parent: site.find("autoid")
+    status: listed
+
+
