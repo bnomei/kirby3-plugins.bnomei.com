@@ -1,8 +1,18 @@
 title: Site
 
 sections:
+
+  content:
+    type: fields
+    fields:
+      author:
+        type: text
+      description:
+        type: textarea
+
   pages:
     headline: Pages
     type: pages
-#  redirects:
-#    extends: plugin-redirects
+
+  redirects:
+    extends: plugin-redirects

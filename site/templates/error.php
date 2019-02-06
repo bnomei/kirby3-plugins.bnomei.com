@@ -3,8 +3,8 @@
 /** @var Kirby\Cms\Site $site */
 /** @var Kirby\Cms\Page $page */
 ?><!DOCTYPE html>
-<html>
-<?php snippet('html-head') ?>
+<html <?= site()->attrLang() ?>>
+<?php snippet('plugin-htmlhead') ?>
 <body>
   404
 </body>
