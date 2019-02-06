@@ -30,9 +30,9 @@ if ($fileWord = $page->file('test.docx')) {
     str_replace('.docx', '.pdf', $fileWord->root()),
     false // wait for conversion to be done
   );
-  echo $fileWord->url().PHP_EOL;
+  echo $fileWord->url().'<br>';
   if ($filePDF) {
-    echo $filePDF->url().PHP_EOL;
+    echo $filePDF->url().'<br>';
   }
 }
 ?>
@@ -42,7 +42,7 @@ if ($fileWord = $page->file('test.docx')) {
 <b>asynchronously jpg to webp</b><br>
 <?php
 if ($fileJpg = $page->file('flowers.jpg')) {
-  echo $fileJpg->url().PHP_EOL;
+  echo $fileJpg->url().'<br>';
   $process = $fileJpg->cloudconvert(
     [
       'inputformat' => 'jpg',
@@ -54,9 +54,9 @@ if ($fileJpg = $page->file('flowers.jpg')) {
 }
 // NOTICE: file might not exists immediately
 if ($fileWebp = $page->file('flowers.webp')) {
-  echo $fileWebp->url().PHP_EOL;
+  echo $fileWebp->url().'<br>';
 } else {
-  echo 'does not exist yet.'.PHP_EOL;
+  echo 'does not exist yet.<br>';
 }
 ?>
 </p>

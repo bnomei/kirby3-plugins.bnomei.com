@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "104746d48e7ea858a0c5d1869db695ca",
+    "content-hash": "dc5e6fc61af032f85d531f2560fecd90",
     "packages": [
         {
             "name": "bnomei/kirby3-cloudconvert",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-cloudconvert.git",
-                "reference": "85a5791a399779f2866e032989ac4c8e8f2754ef"
+                "reference": "632cf1698eaec03ab2ccbcbd4360b5e47a66df98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-cloudconvert/zipball/85a5791a399779f2866e032989ac4c8e8f2754ef",
-                "reference": "85a5791a399779f2866e032989ac4c8e8f2754ef",
+                "url": "https://api.github.com/repos/bnomei/kirby3-cloudconvert/zipball/632cf1698eaec03ab2ccbcbd4360b5e47a66df98",
+                "reference": "632cf1698eaec03ab2ccbcbd4360b5e47a66df98",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "kirby3-cms",
                 "kirby3-plugin"
             ],
-            "time": "2019-02-06T12:28:39+00:00"
+            "time": "2019-02-06T12:50:25+00:00"
         },
         {
             "name": "bnomei/kirby3-dotenv",
@@ -147,16 +147,16 @@
         },
         {
             "name": "bnomei/kirby3-fingerprint",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-fingerprint.git",
-                "reference": "de2f73988c7fa25c54c09b36c124b5d9fb78011c"
+                "reference": "c8195b2fa51412af8b8ae85acb75bb46b3476243"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-fingerprint/zipball/de2f73988c7fa25c54c09b36c124b5d9fb78011c",
-                "reference": "de2f73988c7fa25c54c09b36c124b5d9fb78011c",
+                "url": "https://api.github.com/repos/bnomei/kirby3-fingerprint/zipball/c8195b2fa51412af8b8ae85acb75bb46b3476243",
+                "reference": "c8195b2fa51412af8b8ae85acb75bb46b3476243",
                 "shasum": ""
             },
             "require": {
@@ -189,7 +189,7 @@
                 "kirby3-plugin",
                 "subresource-integrity"
             ],
-            "time": "2019-02-06T11:33:27+00:00"
+            "time": "2019-02-06T12:17:38+00:00"
         },
         {
             "name": "bnomei/kirby3-handlebars",
@@ -624,6 +624,53 @@
             "time": "2019-02-06T10:41:10+00:00"
         },
         {
+            "name": "bnomei/kirby3-thumb-imageoptim",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-thumb-imageoptim.git",
+                "reference": "420e996eadca344b58ccf659e0555b28d3905bc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-thumb-imageoptim/zipball/420e996eadca344b58ccf659e0555b28d3905bc7",
+                "reference": "420e996eadca344b58ccf659e0555b28d3905bc7",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "imageoptim/imageoptim": "^1.3",
+                "php": ">=7.1.0"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "Kirby 3 Thumb Driver using Imageoptim",
+            "keywords": [
+                "component",
+                "image-optimization",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "thumb",
+                "thumbnail"
+            ],
+            "time": "2019-02-06T12:58:49+00:00"
+        },
+        {
             "name": "claviska/simpleimage",
             "version": "3.3.3",
             "source": {
@@ -1044,6 +1091,53 @@
                 "url"
             ],
             "time": "2018-12-04T20:46:45+00:00"
+        },
+        {
+            "name": "imageoptim/imageoptim",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ImageOptim/php-imageoptim-api.git",
+                "reference": "b73eb5d6747fc181de86b2de50fb158dff463618"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ImageOptim/php-imageoptim-api/zipball/b73eb5d6747fc181de86b2de50fb158dff463618",
+                "reference": "b73eb5d6747fc181de86b2de50fb158dff463618",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ImageOptim\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kornel",
+                    "email": "kornel@imageoptim.com"
+                }
+            ],
+            "description": "ImageOptim API for PHP",
+            "homepage": "https://imageoptim.com/api",
+            "keywords": [
+                "image",
+                "optimize",
+                "performance",
+                "resize",
+                "scale"
+            ],
+            "time": "2017-01-09T23:58:20+00:00"
         },
         {
             "name": "joshtronic/php-loremipsum",

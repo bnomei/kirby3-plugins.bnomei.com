@@ -79,6 +79,7 @@ site/plugins/kirby3-robots-txt
 site/plugins/kirby3-random
 site/plugins/kirby3-redirects
 site/plugins/kirby3-security-headers
+site/plugins/kirby3-thumb-imageoptim
 
 ### COMPOSER ###
 vendor

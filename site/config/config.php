@@ -2,7 +2,7 @@
 
 
 return [
-    'debug' => true,
+    'debug' => false,
 
     'bnomei.dotenv.dir' => function () {
         return realpath(kirby()->roots()->index() . '/../');

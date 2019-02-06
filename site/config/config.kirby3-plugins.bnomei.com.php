@@ -27,6 +27,9 @@ function customConvertHook($file) {
 return [
     'debug' => false,
 
+    'bnomei.cloudconvert.apikey' => function() { return env('CLOUDCONVERT_APIKEY'); },
+    'bnomei.thumbimageoptim.apikey' => function() { return env('IMAGEOPTIM_APIKEY'); },
+
     'hooks' => [
         'file.create:after' => function($file) {
             customConvertHook($file);
