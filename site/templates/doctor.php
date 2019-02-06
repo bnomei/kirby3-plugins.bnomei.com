@@ -8,10 +8,8 @@
 <body>
 <pre><code><?=
     lapse(md5($page->id()), function() {
-      return html(Kirby\Http\Remote::get('https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/site/templates/janitor.php')->content());
+      return html(Kirby\Http\Remote::get('https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/site/templates/doctor.php')->content());
     }); ?></code></pre>
-
-<?php dump(janitor('heist', true)); ?>
 
 </body>
 </html>

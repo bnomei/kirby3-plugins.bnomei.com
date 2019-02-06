@@ -1,0 +1,14 @@
+title: Doctor
+
+columns:
+  - 1/1: content
+
+sections:
+  content:
+    type: fields
+    fields:
+      doctor:
+        type: doctor
+        label: Perform checks
+        # progress: Performing checks...
+
