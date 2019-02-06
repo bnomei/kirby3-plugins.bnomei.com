@@ -1,0 +1,26 @@
+body {
+  @apply p-12 bg-grey text-maine;
+}
+
+ul, ol {
+  @apply list-reset;
+  li {
+    @apply py-1;
+  }
+}
+
+p + ul, p + pre.rainbow-show {
+  @apply mt-12;
+}
+
+pre.rainbow-show {
+  @apply p-4 mb-12;
+}
+
+blockquote {
+  @apply p-4 mb-12 bg-yellow text-maine border-l-2 border-maine;
+}
+
+pre.rainbow-show + blockquote {
+  @apply -mt-8;
+}

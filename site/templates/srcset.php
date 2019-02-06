@@ -4,26 +4,36 @@
 /** @var Kirby\Cms\Page $page */
 ?><!DOCTYPE html>
 <html <?= site()->attrLang() ?>>
-<head><?php snippet('plugin-htmlhead') ?></head>
-<body>
-<pre><code><?=
-    lapse(md5($page->id()), function() {
-      return html(Kirby\Http\Remote::get('https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/site/templates/srcset.php')->content());
-    }); ?></code></pre>
 
-<b>PHP</b><br>
-<?php
-echo $page->image('flowers.jpg')->html();
-echo $page->image('flowers.jpg')->srcset(); // aka ->srcset('default')
-// 'breakpoints' is from default presets array. see...
-// https://github.com/bnomei/kirby3-srcset/blob/master/index.php#L11
-echo $page->image('flowers.jpg')->srcset('breakpoints');
-?>
+  <head><?php snippet('plugin-htmlhead') ?></head>
 
-<hr>
-<b>Kirbytag</b><br>
-<?php
-echo $page->text()->kirbytext();
-?>
-</body>
+  <body>
+    <h1><?= $page->title()->html() ?></h1>
+
+    <h2>site/templates/srcset.php</h2>
+    <pre><code data-language="php"><?=
+        lapse(md5($page->id()), function() {
+          $m = 'https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/site/';
+          return html(Kirby\Http\Remote::get($m.'templates/srcset.php')->content());
+        }); ?></code></pre>
+
+    <h2>PHP</h2>
+    <blockquote>
+    <?php
+      echo $page->image('flowers.jpg')->html();
+      echo $page->image('flowers.jpg')->srcset(); // aka ->srcset('default')
+      // 'breakpoints' is from default presets array. see...
+      // https://github.com/bnomei/kirby3-srcset/blob/master/index.php#L11
+      echo $page->image('flowers.jpg')->srcset('breakpoints');
+    ?>
+    </blockquote>
+
+    <h2>Kirbytag</h2>
+    <blockquote>
+    <?php
+      echo $page->text()->kirbytext();
+    ?>
+    </blockquote>
+
+  </body>
 </html>

@@ -4,7 +4,7 @@ let tailwindcss = require('tailwindcss');
 mix.setPublicPath('public');
 mix.setResourceRoot('src');
 
-mix.postCss('src/css/app.pcss', 'public/assets/css', [
+mix.postCss('src/css/app.css', 'public/assets/css', [
   require('precss')(),
   tailwindcss('./tailwind.js'),
 ]).sourceMaps();

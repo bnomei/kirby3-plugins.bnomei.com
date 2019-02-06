@@ -1,0 +1,36 @@
+body, code, pre {
+    @apply font-mono;
+}
+
+h1 {
+    @apply pb-12 text-5xl font-semibold;
+}
+
+h2 {
+    @apply pb-4 font-light;
+}
+
+p + h2 {
+    @apply pt-12;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    @apply text-maine;
+}
+
+a:hover {
+    @apply text-lila;
+}
+
+time {
+    @apply text-red;
+}
+
+em {
+    @apply roman font-normal text-blue;
+}
+
+blockquote pre {
+    @apply bg-yellow text-maine p-0 mb-0;
+}
+

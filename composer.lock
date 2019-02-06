@@ -293,16 +293,16 @@
         },
         {
             "name": "bnomei/kirby3-handlebars",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-handlebars.git",
-                "reference": "e92232f47b27152d7fec0738c3bcdf423771b2fc"
+                "reference": "58897a7b2837c2ae530f6bb4351ae5846df97938"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-handlebars/zipball/e92232f47b27152d7fec0738c3bcdf423771b2fc",
-                "reference": "e92232f47b27152d7fec0738c3bcdf423771b2fc",
+                "url": "https://api.github.com/repos/bnomei/kirby3-handlebars/zipball/58897a7b2837c2ae530f6bb4351ae5846df97938",
+                "reference": "58897a7b2837c2ae530f6bb4351ae5846df97938",
                 "shasum": ""
             },
             "require": {
@@ -340,7 +340,7 @@
                 "semantic",
                 "template-engine"
             ],
-            "time": "2019-02-06T10:55:24+00:00"
+            "time": "2019-02-06T17:51:49+00:00"
         },
         {
             "name": "bnomei/kirby3-htmlhead",

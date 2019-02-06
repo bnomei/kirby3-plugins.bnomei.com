@@ -12,6 +12,15 @@ return [
         'count' => 4,
     ],
 
+    'bnomei.htmlhead.css' => [
+        'assets/css/app.css'
+    ],
+
+    'bnomei.htmlhead.js' => [
+//        'assets/js/app.js',
+        'assets/js/rainbow-custom.min.js',
+    ],
+
     'bnomei.janitor.log.enabled' => true,
     'bnomei.janitor.jobs' => [
         'heist' => function() {
