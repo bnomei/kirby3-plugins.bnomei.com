@@ -65,10 +65,12 @@ return [
         }
 
         // rainbows
+        // https://github.com/ccampbell/rainbow/issues/223
+        // https://github.com/lucaswerkmeister/server-etc/commit/98f8fa621a4ffec5cef66e9c96b287372085235e
         $sourcesetID = 'rainbows';
         $policy->defineSourceSet($sourcesetID, [kirby()->site()->url(), "'unsafe-eval'", "blob:"]);
-
         $directives = [
+            ContentSecurityPolicyHeaderBuilder::DIRECTIVE_DEFAULT_SRC,
             ContentSecurityPolicyHeaderBuilder::DIRECTIVE_SCRIPT_SRC,
         ];
         foreach ($directives as $d) {
@@ -76,15 +78,7 @@ return [
         }
 
         // instagram
-        $sourcesetID = 'instagram';
-        $policy->defineSourceSet($sourcesetID, ['scontent.cdninstagram.com']);
-
-        $directives = [
-            ContentSecurityPolicyHeaderBuilder::DIRECTIVE_IMG_SRC,
-        ];
-        foreach ($directives as $d) {
-            $policy->addSourceSet($d, $sourcesetID);
-        }
+        $policy->addSourceExpression(ContentSecurityPolicyHeaderBuilder::DIRECTIVE_IMG_SRC, 'scontent.cdninstagram.com');
 
         return $policy;
     },

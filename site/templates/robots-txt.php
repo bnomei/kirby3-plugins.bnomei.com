@@ -20,5 +20,7 @@
 
     <h2>robots.txt <?= Kirby\Toolkit\Html::a(url('robots.txt'), 'open') ?></h2>
     <pre><code data-language="none"><?= Kirby\Http\Remote::get(url('robots.txt'))->content() ?></code></pre>
+
+    <?php snippet('footer') ?>
   </body>
 </html>

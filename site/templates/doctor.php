@@ -9,12 +9,13 @@
 
   <h1><?= $page->title()->html() ?></h1>
 
-  <h2>site/templates/doctor.php</h2>
-  <pre><code data-language="php"><?=
+  <h2>site/blueprints/pages/doctor.yml</h2>
+  <pre><code data-language="html"><?=
       lapse(md5($page->id()), function() {
-        $m = 'https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/';
-        return html(Kirby\Http\Remote::get($m.'site/templates/doctor.php')->content());
+        $m = 'https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/site/';
+        return html(Kirby\Http\Remote::get($m.'blueprints/pages/doctor.yml')->content());
       }); ?></code></pre>
 
+  <?php snippet('footer') ?>
   </body>
 </html>

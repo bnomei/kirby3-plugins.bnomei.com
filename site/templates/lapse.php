@@ -18,5 +18,6 @@
         return html(Kirby\Http\Remote::get($m.'templates/lapse.php')->content());
       }); ?></code></pre>
 
+    <?php snippet('footer') ?>
   </body>
 </html>

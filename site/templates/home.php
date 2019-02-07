@@ -18,5 +18,7 @@
     <li><a href="<?= $plugin->url() ?>"><?= $plugin->title()->html() ?></a></li>
     <?php endforeach; ?>
   </ul>
+
+  <?php snippet('footer') ?>
 </body>
 </html>

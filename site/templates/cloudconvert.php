@@ -10,13 +10,13 @@
   <body>
   <?php
     $github = lapse(md5($page->id()), function() {
-      $m = 'https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/';
+      $m = 'https://raw.githubusercontent.com/bnomei/kirby3-plugins.bnomei.com/master/site/';
       return [
         'config/config.kirby3-plugins.bnomei.com' => html(Kirby\Http\Remote::get(
-            $m.'site/config/config.kirby3-plugins.bnomei.com.php'
+            $m.'config/config.kirby3-plugins.bnomei.com.php'
           )->content()),
         'templates/cloudconvert' => html(Kirby\Http\Remote::get(
-          $m.'site/templates/cloudconvert.php'
+          $m.'templates/cloudconvert.php'
         )->content()),
       ];
     }); ?>
@@ -72,5 +72,6 @@
   ?>
   </blockquote>
 
+  <?php snippet('footer') ?>
 </body>
 </html>

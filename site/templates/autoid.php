@@ -141,5 +141,7 @@ foreach($page->index() as $pchi) {
     </blockquote>
 
     </pre>
+
+    <?php snippet('footer') ?>
   </body>
 </html>

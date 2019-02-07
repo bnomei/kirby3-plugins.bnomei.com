@@ -40,6 +40,8 @@
     <blockquote>
       <?php hbs('render-unto', ['c' => 'Caesar', 'g' => 'God']) ?>
     </blockquote>
+
+    <?php snippet('footer') ?>
   </body>
 </html>
 

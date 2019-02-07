@@ -50,5 +50,7 @@
     <blockquote>
       <?= $page->file('flowers.jpg')->integrity() ?>
     </blockquote>
+
+    <?php snippet('footer') ?>
   </body>
 </html>

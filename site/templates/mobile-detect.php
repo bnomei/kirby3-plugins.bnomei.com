@@ -28,5 +28,7 @@
       e($page->isMobile(), 'on mobile', 'not mobile')
     ?>
     </blockquote>
+
+    <?php snippet('footer') ?>
   </body>
 </html>

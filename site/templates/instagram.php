@@ -29,5 +29,7 @@
       }
     ?>
     </blockquote>
+
+    <?php snippet('footer') ?>
   </body>
 </html>

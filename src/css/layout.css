@@ -14,13 +14,19 @@ p + ul, p + pre.rainbow-show {
 }
 
 pre.rainbow-show {
-  @apply p-4 mb-12;
+  @apply p-4 mb-12 border-l-2 border-maine;
 }
 
 blockquote {
-  @apply p-4 mb-12 bg-yellow text-maine border-l-2 border-maine;
+  @apply p-4 mb-12 border-l-2 border-maine;
+  background-color: #FFF9C4;
+}
+
+blockquote pre {
+  @apply p-0 mb-0;
+
 }
 
 pre.rainbow-show + blockquote {
-  @apply -mt-8;
+  @apply -mt-12;
 }
