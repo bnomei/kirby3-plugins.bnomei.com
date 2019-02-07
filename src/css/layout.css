@@ -1,5 +1,6 @@
 body {
-  @apply p-12 bg-grey text-maine;
+  @apply p-12 text-maine;
+  background-color: #ece5e8;
 }
 
 ul, ol {
