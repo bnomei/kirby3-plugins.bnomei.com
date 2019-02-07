@@ -9,7 +9,7 @@
   <h1><?= $page->title()->html() ?></h1>
   <?= $page->text()->kirbytext() ?>
 
-  <ul>
+  <ul class="mb-12">
     <?php foreach ($site->pages() as $plugin):
       if (in_array($plugin->intendedTemplate(), ['home', 'error'])) {
           continue;
