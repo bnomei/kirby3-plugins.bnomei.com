@@ -1,6 +1,7 @@
 ### PHP ###
 php-error.log*
 *.php_cs.cache
+.vagrant
 
 ### Workflow & Editor ###
 .idea

@@ -1,6 +1,3 @@
 <?php
 
-return [
-    'debug' => true,
-    'bnomei.thumbimageoptim.optimize' => false,
-];
+return require_once(__DIR__ . '/config.localhost.php');
