@@ -140,8 +140,6 @@ foreach($page->index() as $pchi) {
       <a href="<?php echo $randomPage->tinyurl(); ?>"><?php echo $randomPage->uid(); ?></a>
     </blockquote>
 
-    </pre>
-
     <?php snippet('footer') ?>
   </body>
 </html>
