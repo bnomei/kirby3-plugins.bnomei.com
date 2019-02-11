@@ -26,6 +26,9 @@ function customConvertHook($file) {
 
 return [
     'debug' => false,
+    'cache' => [
+        'driver' => 'memcached'
+    ],
 
     'bnomei.cloudconvert.apikey' => function() {
         return env('CLOUDCONVERT_APIKEY');

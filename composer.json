@@ -34,6 +34,9 @@
     "deployhq": [
       "composer install --no-progress --no-dev --optimize-autoloader",
       "mv -f public/.htaccess.deploy public/.htaccess"
+    ],
+    "memcached": [
+      "vagrant ssh -- sudo /etc/init.d/memcached start"
     ]
   },
   "require-dev": {

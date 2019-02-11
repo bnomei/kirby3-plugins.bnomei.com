@@ -1,3 +1,5 @@
 <?php
 
-return require_once(__DIR__ . '/config.localhost.php');
+$config = require_once(__DIR__ . '/config.localhost.php');
+
+return array_merge($config, []);

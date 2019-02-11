@@ -7,13 +7,13 @@ keys:
     - ~/.ssh/id_rsa
 folders:
     -
-        map: ~/GIT/kirby3-plugins-bnomei-com
+        map: ~/GIT/kirby3-plugins.bnomei.com
         to: /home/vagrant/code
 sites:
     -
         map: homestead.test
         to: /home/vagrant/code/public
-        type: apache # default: laravel
+        type: apache
 databases:
     - homestead
 name: homestead

@@ -1,3 +1,9 @@
+<?php
+    if(class_exists("Memcached")) {
+        echo "<!-- memcached -->";
+    }
+?>
+
 <footer class="text-center">
   <?= Kirby\Toolkit\Html::a(site()->url(), 'Home') ?>
   <?= Kirby\Toolkit\Html::a('https://github.com/bnomei/kirby3-plugins.bnomei.com/blob/master/site/templates/'.$page->intendedTemplate().'.php', 'View Source') ?>
