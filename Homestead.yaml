@@ -1,0 +1,20 @@
+ip: 192.168.10.10
+memory: 2048
+cpus: 1
+provider: vmware_fusion
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: ~/GIT/kirby3-plugins-bnomei-com
+        to: /home/vagrant/code
+sites:
+    -
+        map: homestead.test
+        to: /home/vagrant/code/public
+        type: apache # default: laravel
+databases:
+    - homestead
+name: homestead
+hostname: homestead

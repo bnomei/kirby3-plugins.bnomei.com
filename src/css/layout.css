@@ -1,6 +1,12 @@
 body {
-  @apply p-12 text-maine;
+  @apply p-4 text-maine;
   background-color: #ece5e8;
+}
+
+@media (min-width: 576px) {
+  body {
+    @apply p-12;
+  }
 }
 
 ul, ol {

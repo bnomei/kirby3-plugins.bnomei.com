@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'debug' => false,
+    'debug' => true,
     'bnomei.thumbimageoptim.optimize' => false,
 ];
