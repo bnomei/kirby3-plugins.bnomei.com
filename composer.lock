@@ -201,16 +201,16 @@
         },
         {
             "name": "bnomei/kirby3-feed",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-feed.git",
-                "reference": "060a6e8839055bccad317b0f2e167f739a10d2d6"
+                "reference": "b61ab570833bb7c2917c6c1dfc0010fa4d8419fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-feed/zipball/060a6e8839055bccad317b0f2e167f739a10d2d6",
-                "reference": "060a6e8839055bccad317b0f2e167f739a10d2d6",
+                "url": "https://api.github.com/repos/bnomei/kirby3-feed/zipball/b61ab570833bb7c2917c6c1dfc0010fa4d8419fc",
+                "reference": "b61ab570833bb7c2917c6c1dfc0010fa4d8419fc",
                 "shasum": ""
             },
             "require": {
@@ -243,7 +243,7 @@
                 "rss",
                 "rss-feed"
             ],
-            "time": "2019-02-05T22:59:57+00:00"
+            "time": "2019-02-20T08:58:36+00:00"
         },
         {
             "name": "bnomei/kirby3-fingerprint",
@@ -293,16 +293,16 @@
         },
         {
             "name": "bnomei/kirby3-handlebars",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-handlebars.git",
-                "reference": "58897a7b2837c2ae530f6bb4351ae5846df97938"
+                "reference": "0a4e337ffff2c527389d871ff639e7fce212d281"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-handlebars/zipball/58897a7b2837c2ae530f6bb4351ae5846df97938",
-                "reference": "58897a7b2837c2ae530f6bb4351ae5846df97938",
+                "url": "https://api.github.com/repos/bnomei/kirby3-handlebars/zipball/0a4e337ffff2c527389d871ff639e7fce212d281",
+                "reference": "0a4e337ffff2c527389d871ff639e7fce212d281",
                 "shasum": ""
             },
             "require": {
@@ -340,20 +340,20 @@
                 "semantic",
                 "template-engine"
             ],
-            "time": "2019-02-06T17:51:49+00:00"
+            "time": "2019-02-17T21:26:51+00:00"
         },
         {
             "name": "bnomei/kirby3-htmlhead",
-            "version": "1.7.3",
+            "version": "1.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-htmlhead.git",
-                "reference": "0c4ea9d0373bcd2338f9098ec838cf79a4b6071e"
+                "reference": "370f8aa355457e611d111e3d6fd321b72d7ccdbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-htmlhead/zipball/0c4ea9d0373bcd2338f9098ec838cf79a4b6071e",
-                "reference": "0c4ea9d0373bcd2338f9098ec838cf79a4b6071e",
+                "url": "https://api.github.com/repos/bnomei/kirby3-htmlhead/zipball/370f8aa355457e611d111e3d6fd321b72d7ccdbd",
+                "reference": "370f8aa355457e611d111e3d6fd321b72d7ccdbd",
                 "shasum": ""
             },
             "require": {
@@ -396,20 +396,20 @@
                 "typekit",
                 "webfontloader"
             ],
-            "time": "2019-02-06T10:12:14+00:00"
+            "time": "2019-03-10T14:08:55+00:00"
         },
         {
             "name": "bnomei/kirby3-instagram",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-instagram.git",
-                "reference": "a5f8567aabddd706bc6447a003aef751614d6427"
+                "reference": "0803e64de7d738b3aa296c9336744289df09201b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-instagram/zipball/a5f8567aabddd706bc6447a003aef751614d6427",
-                "reference": "a5f8567aabddd706bc6447a003aef751614d6427",
+                "url": "https://api.github.com/repos/bnomei/kirby3-instagram/zipball/0803e64de7d738b3aa296c9336744289df09201b",
+                "reference": "0803e64de7d738b3aa296c9336744289df09201b",
                 "shasum": ""
             },
             "require": {
@@ -446,7 +446,7 @@
                 "kirby3-plugin",
                 "token"
             ],
-            "time": "2019-02-05T09:37:46+00:00"
+            "time": "2019-02-18T14:29:11+00:00"
         },
         {
             "name": "bnomei/kirby3-janitor",
@@ -774,16 +774,16 @@
         },
         {
             "name": "bnomei/kirby3-srcset",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-srcset.git",
-                "reference": "09fa173792b379642281152385a3e54f0e353c39"
+                "reference": "b5200d2dc2d856e9f4d6c1b8daa2066f16b10394"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-srcset/zipball/09fa173792b379642281152385a3e54f0e353c39",
-                "reference": "09fa173792b379642281152385a3e54f0e353c39",
+                "url": "https://api.github.com/repos/bnomei/kirby3-srcset/zipball/b5200d2dc2d856e9f4d6c1b8daa2066f16b10394",
+                "reference": "b5200d2dc2d856e9f4d6c1b8daa2066f16b10394",
                 "shasum": ""
             },
             "require": {
@@ -808,6 +808,7 @@
             ],
             "description": "Kirby 3 Plugin for creating image srcset using picture or image element",
             "keywords": [
+                "flickity",
                 "images",
                 "kirby3",
                 "kirby3-cms",
@@ -819,7 +820,7 @@
                 "source",
                 "srcset"
             ],
-            "time": "2019-02-06T14:40:30+00:00"
+            "time": "2019-02-27T16:49:42+00:00"
         },
         {
             "name": "bnomei/kirby3-thumb-imageoptim",
@@ -1066,16 +1067,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "d62cc7536a709f8346eb2b1a066db835e0372128"
+                "reference": "56b208ef955f0a6e156fe6d6becef2da911c6d24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/d62cc7536a709f8346eb2b1a066db835e0372128",
-                "reference": "d62cc7536a709f8346eb2b1a066db835e0372128",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/56b208ef955f0a6e156fe6d6becef2da911c6d24",
+                "reference": "56b208ef955f0a6e156fe6d6becef2da911c6d24",
                 "shasum": ""
             },
             "require": {
@@ -1083,7 +1084,7 @@
                 "ext-ctype": "*",
                 "ext-mbstring": "*",
                 "filp/whoops": "2.3.1",
-                "getkirby/composer-installer": "*",
+                "getkirby/composer-installer": "^1.0",
                 "michelf/php-smartypants": "1.8.1",
                 "mustangostang/spyc": "0.6.2",
                 "php": ">=7.1.0",
@@ -1123,20 +1124,20 @@
                 "core",
                 "kirby"
             ],
-            "time": "2019-02-05T10:23:01+00:00"
+            "time": "2019-03-05T09:33:06+00:00"
         },
         {
             "name": "getkirby/composer-installer",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/composer-installer.git",
-                "reference": "162497e4d9465fae95cb44b6135506eac54c9a05"
+                "reference": "2d6b8f5601a31caeeea45623e1643fbb437eb94e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/composer-installer/zipball/162497e4d9465fae95cb44b6135506eac54c9a05",
-                "reference": "162497e4d9465fae95cb44b6135506eac54c9a05",
+                "url": "https://api.github.com/repos/getkirby/composer-installer/zipball/2d6b8f5601a31caeeea45623e1643fbb437eb94e",
+                "reference": "2d6b8f5601a31caeeea45623e1643fbb437eb94e",
                 "shasum": ""
             },
             "require": {
@@ -1161,7 +1162,7 @@
             ],
             "description": "Kirby's custom Composer installer for the Kirby CMS and for Kirby plugins",
             "homepage": "https://getkirby.com",
-            "time": "2019-02-06T09:15:26+00:00"
+            "time": "2019-02-11T20:27:36+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1694,25 +1695,25 @@
         },
         {
             "name": "omz13/kirby3-xmlsitemap",
-            "version": "1.0.0",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/omz13/kirby3-xmlsitemap.git",
-                "reference": "fd1e7d299a803db7528842d78f4365b55dc19137"
+                "reference": "faa00a5deffb147c27a243788f2a213108456a5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/omz13/kirby3-xmlsitemap/zipball/fd1e7d299a803db7528842d78f4365b55dc19137",
-                "reference": "fd1e7d299a803db7528842d78f4365b55dc19137",
+                "url": "https://api.github.com/repos/omz13/kirby3-xmlsitemap/zipball/faa00a5deffb147c27a243788f2a213108456a5e",
+                "reference": "faa00a5deffb147c27a243788f2a213108456a5e",
                 "shasum": ""
             },
             "require": {
-                "getkirby/cms": "^3.0.0-RC-2.0",
+                "getkirby/composer-installer": "^1.1",
                 "php": ">=7.1"
             },
             "require-dev": {
+                "getkirby/cms": "^3.0.1",
                 "jakub-onderka/php-parallel-lint": "^1.0",
-                "liip/rmt": "^1.4",
                 "localheinz/composer-normalize": "^1.0.0",
                 "omz13/omz13-coding-standard": "dev-master",
                 "phpcompatibility/php-compatibility": "^8.2",
@@ -1721,14 +1722,11 @@
                 "phpstan/phpstan-strict-rules": "^0.10.1",
                 "roave/security-advisories": "dev-master"
             },
-            "type": "library",
+            "type": "kirby-plugin",
             "autoload": {
                 "psr-4": {
                     "omz13\\": "src/"
-                },
-                "files": [
-                    "src/config.php"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1748,7 +1746,7 @@
                 "kirby3",
                 "plugin"
             ],
-            "time": "2019-01-15T23:42:56+00:00"
+            "time": "2019-02-20T21:20:14+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -2001,16 +1999,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.2.3",
+            "version": "v4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "1f0ad51dfde4da8a6070f06adc58b4e37cbb37a4"
+                "reference": "9dc2299a016497f9ee620be94524e6c0af0280a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/1f0ad51dfde4da8a6070f06adc58b4e37cbb37a4",
-                "reference": "1f0ad51dfde4da8a6070f06adc58b4e37cbb37a4",
+                "url": "https://api.github.com/repos/symfony/console/zipball/9dc2299a016497f9ee620be94524e6c0af0280a9",
+                "reference": "9dc2299a016497f9ee620be94524e6c0af0280a9",
                 "shasum": ""
             },
             "require": {
@@ -2069,7 +2067,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-25T14:35:16+00:00"
+            "time": "2019-02-23T15:17:42+00:00"
         },
         {
             "name": "symfony/contracts",
@@ -2519,16 +2517,16 @@
     "packages-dev": [
         {
             "name": "laravel/homestead",
-            "version": "v8.1.0",
+            "version": "v8.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "7a47985866dd13896a14883038bd1faf40702253"
+                "reference": "68388101a1364019c1fa44ff427be43b5ffda90f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/7a47985866dd13896a14883038bd1faf40702253",
-                "reference": "7a47985866dd13896a14883038bd1faf40702253",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/68388101a1364019c1fa44ff427be43b5ffda90f",
+                "reference": "68388101a1364019c1fa44ff427be43b5ffda90f",
                 "shasum": ""
             },
             "require": {
@@ -2565,11 +2563,11 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2019-02-06T01:05:54+00:00"
+            "time": "2019-03-05T22:31:19+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v4.2.3",
+            "version": "v4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -2618,16 +2616,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.2.3",
+            "version": "v4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "d461670ee145092b7e2a56c1da7118f19cadadb0"
+                "reference": "761fa560a937fd7686e5274ff89dcfa87a5047df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/d461670ee145092b7e2a56c1da7118f19cadadb0",
-                "reference": "d461670ee145092b7e2a56c1da7118f19cadadb0",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/761fa560a937fd7686e5274ff89dcfa87a5047df",
+                "reference": "761fa560a937fd7686e5274ff89dcfa87a5047df",
                 "shasum": ""
             },
             "require": {
@@ -2673,7 +2671,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16T20:35:37+00:00"
+            "time": "2019-02-23T15:17:42+00:00"
         }
     ],
     "aliases": [],
