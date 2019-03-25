@@ -18,7 +18,7 @@
     "bnomei/kirby3-redirects": "^1.2",
     "bnomei/kirby3-robots-txt": "^1.2",
     "bnomei/kirby3-security-headers": "^1.0",
-    "bnomei/kirby3-srcset": "^1.3",
+    "bnomei/kirby3-srcset": "^2.0",
     "bnomei/kirby3-thumb-imageoptim": "^1.2",
     "getkirby/cms": "^3.0.0",
     "omz13/kirby3-xmlsitemap": "^1.0"

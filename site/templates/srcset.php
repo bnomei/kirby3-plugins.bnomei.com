@@ -21,10 +21,10 @@
     <blockquote>
     <?php
       echo $page->image('flowers.jpg')->html();
-      echo $page->image('flowers.jpg')->srcset(); // aka ->srcset('default')
+      echo $page->image('flowers.jpg')->imgElementWithSrcset(); // aka ->imgElementWithSrcset('default')
       // 'breakpoints' is from default presets array. see...
       // https://github.com/bnomei/kirby3-srcset/blob/master/index.php#L11
-      echo $page->image('flowers.jpg')->srcset('breakpoints');
+      echo $page->image('flowers.jpg')->imgElementWithSrcset('breakpoints');
     ?>
     </blockquote>
 

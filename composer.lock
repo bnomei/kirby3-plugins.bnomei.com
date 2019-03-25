@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "368203bdaab523d5555fa590df5934f7",
+    "content-hash": "4ae477c964970dc26c43a213eb3f2a8f",
     "packages": [
         {
             "name": "bnomei/kirby3-autoid",
@@ -344,16 +344,16 @@
         },
         {
             "name": "bnomei/kirby3-htmlhead",
-            "version": "1.7.5",
+            "version": "1.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-htmlhead.git",
-                "reference": "370f8aa355457e611d111e3d6fd321b72d7ccdbd"
+                "reference": "48a09ef5bb52238ac41311d037770f8da7a28ff3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-htmlhead/zipball/370f8aa355457e611d111e3d6fd321b72d7ccdbd",
-                "reference": "370f8aa355457e611d111e3d6fd321b72d7ccdbd",
+                "url": "https://api.github.com/repos/bnomei/kirby3-htmlhead/zipball/48a09ef5bb52238ac41311d037770f8da7a28ff3",
+                "reference": "48a09ef5bb52238ac41311d037770f8da7a28ff3",
                 "shasum": ""
             },
             "require": {
@@ -396,7 +396,7 @@
                 "typekit",
                 "webfontloader"
             ],
-            "time": "2019-03-10T14:08:55+00:00"
+            "time": "2019-03-11T10:11:42+00:00"
         },
         {
             "name": "bnomei/kirby3-instagram",
@@ -774,16 +774,16 @@
         },
         {
             "name": "bnomei/kirby3-srcset",
-            "version": "1.4.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-srcset.git",
-                "reference": "b5200d2dc2d856e9f4d6c1b8daa2066f16b10394"
+                "reference": "4cd9db0bbbea89d0469c33a9caf094c6f5a67814"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-srcset/zipball/b5200d2dc2d856e9f4d6c1b8daa2066f16b10394",
-                "reference": "b5200d2dc2d856e9f4d6c1b8daa2066f16b10394",
+                "url": "https://api.github.com/repos/bnomei/kirby3-srcset/zipball/4cd9db0bbbea89d0469c33a9caf094c6f5a67814",
+                "reference": "4cd9db0bbbea89d0469c33a9caf094c6f5a67814",
                 "shasum": ""
             },
             "require": {
@@ -820,7 +820,7 @@
                 "source",
                 "srcset"
             ],
-            "time": "2019-02-27T16:49:42+00:00"
+            "time": "2019-03-16T11:22:57+00:00"
         },
         {
             "name": "bnomei/kirby3-thumb-imageoptim",
@@ -1067,16 +1067,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.0.3",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "56b208ef955f0a6e156fe6d6becef2da911c6d24"
+                "reference": "74b593ff86f9a220343d08e3c631b128d09e76d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/56b208ef955f0a6e156fe6d6becef2da911c6d24",
-                "reference": "56b208ef955f0a6e156fe6d6becef2da911c6d24",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/74b593ff86f9a220343d08e3c631b128d09e76d6",
+                "reference": "74b593ff86f9a220343d08e3c631b128d09e76d6",
                 "shasum": ""
             },
             "require": {
@@ -1124,7 +1124,7 @@
                 "core",
                 "kirby"
             ],
-            "time": "2019-03-05T09:33:06+00:00"
+            "time": "2019-03-19T08:43:05+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -2139,16 +2139,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
+                "reference": "82ebae02209c21113908c229e9883c419720738a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
+                "reference": "82ebae02209c21113908c229e9883c419720738a",
                 "shasum": ""
             },
             "require": {
@@ -2160,7 +2160,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -2182,7 +2182,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -2193,20 +2193,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
+                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
-                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
+                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
                 "shasum": ""
             },
             "require": {
@@ -2218,7 +2218,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -2252,7 +2252,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-09-21T13:07:52+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "true/punycode",
