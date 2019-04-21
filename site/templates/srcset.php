@@ -25,6 +25,7 @@
       // 'breakpoints' is from default presets array. see...
       // https://github.com/bnomei/kirby3-srcset/blob/master/index.php#L11
       echo $page->image('flowers.jpg')->imgElementWithSrcset('breakpoints');
+      echo $page->image('flowers.jpg')->pictureElementWithSrcset();
     ?>
     </blockquote>
 
