@@ -22,3 +22,4 @@ sections:
         label: Enter Bank
         progress: Performing Heist...
         job: heist
+        data: Grand

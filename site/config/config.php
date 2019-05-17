@@ -23,15 +23,26 @@ return [
 
     'bnomei.janitor.log.enabled' => true,
     'bnomei.janitor.jobs' => [
-        'heist' => function() {
+        'heist' => function(Kirby\Cms\Page $page = null, string $data = null) {
+
             \Bnomei\Janitor::log('heist.mask '.time());
+
             $grand = \Bnomei\Janitor::lootTheSafe();
+
             // or trigger a snippet like this:
             // snippet('call-police');
+
+            // $page is Kirby Page Object if job issued by Panel
+            $location = $page ? $page->title() : 'Bank';
+
+            // $data is optional [data] prop from the Janitor Panel Field
+            $currency = $data ? $data : 'Coins';
+
             \Bnomei\Janitor::log('heist.exit '.time());
+
             return [
                 'status' => $grand > 0 ? 200 : 404,
-                'label' => $grand . ' Grand looted!'
+                'label' => $grand . ' ' . $currency . '  looted at ' . $location . '!'
             ];
         }
     ],
