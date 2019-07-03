@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "bnomei/kirby3-autoid",
-            "version": "1.3.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-autoid.git",
-                "reference": "f89506eb9c045e60e99216538a1d83264addeadc"
+                "reference": "074b57a7cfaff14f9ff468759eb0b7dc72fb0e0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-autoid/zipball/f89506eb9c045e60e99216538a1d83264addeadc",
-                "reference": "f89506eb9c045e60e99216538a1d83264addeadc",
+                "url": "https://api.github.com/repos/bnomei/kirby3-autoid/zipball/074b57a7cfaff14f9ff468759eb0b7dc72fb0e0a",
+                "reference": "074b57a7cfaff14f9ff468759eb0b7dc72fb0e0a",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "structure-id",
                 "tiny-url"
             ],
-            "time": "2019-02-06T16:08:55+00:00"
+            "time": "2019-07-03T10:24:57+00:00"
         },
         {
             "name": "bnomei/kirby3-cloudconvert",
@@ -689,16 +689,16 @@
         },
         {
             "name": "bnomei/kirby3-robots-txt",
-            "version": "1.2.1",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-robots-txt.git",
-                "reference": "479549d1e8c3aa4d2aee7263d5344c2141009a22"
+                "reference": "4ff1d042dbb9462e8e730a10edfdb3b9417e3e01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-robots-txt/zipball/479549d1e8c3aa4d2aee7263d5344c2141009a22",
-                "reference": "479549d1e8c3aa4d2aee7263d5344c2141009a22",
+                "url": "https://api.github.com/repos/bnomei/kirby3-robots-txt/zipball/4ff1d042dbb9462e8e730a10edfdb3b9417e3e01",
+                "reference": "4ff1d042dbb9462e8e730a10edfdb3b9417e3e01",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +724,7 @@
                 "robots-exclusion-protocol",
                 "robots-txt"
             ],
-            "time": "2019-02-05T21:35:07+00:00"
+            "time": "2019-07-03T10:33:53+00:00"
         },
         {
             "name": "bnomei/kirby3-security-headers",
@@ -1067,16 +1067,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.1.4",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "0885e295788aadac1bd11fbbd28502d3119d2959"
+                "reference": "80b69380e672565a849037232c9951d1e32774c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/0885e295788aadac1bd11fbbd28502d3119d2959",
-                "reference": "0885e295788aadac1bd11fbbd28502d3119d2959",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/80b69380e672565a849037232c9951d1e32774c8",
+                "reference": "80b69380e672565a849037232c9951d1e32774c8",
                 "shasum": ""
             },
             "require": {
@@ -1095,9 +1095,7 @@
             "type": "kirby-cms",
             "autoload": {
                 "files": [
-                    "config/helpers.php",
-                    "config/aliases.php",
-                    "config/tests.php"
+                    "config/setup.php"
                 ],
                 "classmap": [
                     "dependencies/"
@@ -1124,7 +1122,7 @@
                 "core",
                 "kirby"
             ],
-            "time": "2019-05-21T10:09:04+00:00"
+            "time": "2019-06-25T07:44:02+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -1282,33 +1280,37 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.5.2",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115"
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
                 "psr/http-message": "~1.0",
-                "ralouphie/getallheaders": "^2.0.5"
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
+                "ext-zlib": "*",
                 "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+            },
+            "suggest": {
+                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -1345,7 +1347,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-12-04T20:46:45+00:00"
+            "time": "2019-07-01T23:21:34+00:00"
         },
         {
             "name": "imageoptim/imageoptim",
@@ -1815,6 +1817,55 @@
             "time": "2019-02-01T15:04:28+00:00"
         },
         {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
             "name": "psr/http-message",
             "version": "1.0.1",
             "source": {
@@ -1913,24 +1964,24 @@
         },
         {
             "name": "ralouphie/getallheaders",
-            "version": "2.0.5",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ralouphie/getallheaders.git",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3"
+                "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.7.0",
-                "satooshi/php-coveralls": ">=1.0"
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
             },
             "type": "library",
             "autoload": {
@@ -1949,7 +2000,7 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "time": "2016-02-11T07:05:27+00:00"
+            "time": "2019-03-08T08:55:37+00:00"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -1999,16 +2050,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.3.0",
+            "version": "v4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "707b619d2c3bedf0224d56f95f77dabc60102305"
+                "reference": "b592b26a24265a35172d8a2094d8b10f22b7cc39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/707b619d2c3bedf0224d56f95f77dabc60102305",
-                "reference": "707b619d2c3bedf0224d56f95f77dabc60102305",
+                "url": "https://api.github.com/repos/symfony/console/zipball/b592b26a24265a35172d8a2094d8b10f22b7cc39",
+                "reference": "b592b26a24265a35172d8a2094d8b10f22b7cc39",
                 "shasum": ""
             },
             "require": {
@@ -2070,7 +2121,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-05-27T08:16:38+00:00"
+            "time": "2019-06-13T11:03:18+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2249,23 +2300,23 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v1.1.2",
+            "version": "v1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "191afdcb5804db960d26d8566b7e9a2843cab3a0"
+                "reference": "f391a00de78ec7ec8cf5cdcdae59ec7b883edb8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/191afdcb5804db960d26d8566b7e9a2843cab3a0",
-                "reference": "191afdcb5804db960d26d8566b7e9a2843cab3a0",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/f391a00de78ec7ec8cf5cdcdae59ec7b883edb8d",
+                "reference": "f391a00de78ec7ec8cf5cdcdae59ec7b883edb8d",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3"
+                "php": "^7.1.3",
+                "psr/container": "^1.0"
             },
             "suggest": {
-                "psr/container": "",
                 "symfony/service-implementation": ""
             },
             "type": "library",
@@ -2303,7 +2354,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2019-05-28T07:50:59+00:00"
+            "time": "2019-06-13T11:15:36+00:00"
         },
         {
             "name": "true/punycode",
@@ -2574,16 +2625,16 @@
     "packages-dev": [
         {
             "name": "laravel/homestead",
-            "version": "v8.5.5",
+            "version": "v8.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "ce92d94902e7f647bb6ce50e579994a12f640f02"
+                "reference": "01227bf1fdcddf61ad1238940fbfb538fc6d953b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/ce92d94902e7f647bb6ce50e579994a12f640f02",
-                "reference": "ce92d94902e7f647bb6ce50e579994a12f640f02",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/01227bf1fdcddf61ad1238940fbfb538fc6d953b",
+                "reference": "01227bf1fdcddf61ad1238940fbfb538fc6d953b",
                 "shasum": ""
             },
             "require": {
@@ -2620,20 +2671,20 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2019-05-30T18:59:50+00:00"
+            "time": "2019-06-21T00:49:25+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v4.3.0",
+            "version": "v4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "a5e3dd4e93a364668034a3cb6efa963d0b33ab45"
+                "reference": "856d35814cf287480465bb7a6c413bb7f5f5e69c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/a5e3dd4e93a364668034a3cb6efa963d0b33ab45",
-                "reference": "a5e3dd4e93a364668034a3cb6efa963d0b33ab45",
+                "url": "https://api.github.com/repos/symfony/process/zipball/856d35814cf287480465bb7a6c413bb7f5f5e69c",
+                "reference": "856d35814cf287480465bb7a6c413bb7f5f5e69c",
                 "shasum": ""
             },
             "require": {
@@ -2669,11 +2720,11 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2019-05-26T20:47:49+00:00"
+            "time": "2019-05-30T16:10:05+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.3.0",
+            "version": "v4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
