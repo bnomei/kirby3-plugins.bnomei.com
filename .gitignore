@@ -1,6 +1,6 @@
 ### PHP ###
 php-error.log*
-*.php_cs.cache
+*.cache
 .vagrant
 
 ### Workflow & Editor ###

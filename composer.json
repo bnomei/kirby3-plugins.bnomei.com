@@ -28,18 +28,16 @@
     "sort-packages": true
   },
   "scripts": {
-    "fix": [
-      "php-cs-fixer fix"
-    ],
+    "fix": "php-cs-fixer fix",
     "deployhq": [
       "composer install --no-progress --no-dev --optimize-autoloader",
       "mv -f public/.htaccess.deploy public/.htaccess"
     ],
-    "memcached": [
-      "vagrant ssh -- sudo /etc/init.d/memcached start"
-    ]
+    "memcached": "vagrant ssh -- sudo /etc/init.d/memcached start",
+    "test": "phpunit --configuration ./phpunit.xml"
   },
   "require-dev": {
-    "laravel/homestead": "^8.1"
+    "laravel/homestead": "^8.1",
+    "phpunit/phpunit": "^8.3"
   }
 }
