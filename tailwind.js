@@ -127,7 +127,6 @@ module.exports = {
   fonts: {
     'mono': [
       'Iosevka Web',
-      'Courier New',
       'monospace',
     ],
   },
