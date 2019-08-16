@@ -62,6 +62,7 @@ kirby
 public/media
 public/ui/
 site/config/.license
+storage
 storage/cache
 storage/accounts
 storage/sessions
