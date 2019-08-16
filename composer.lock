@@ -344,16 +344,16 @@
         },
         {
             "name": "bnomei/kirby3-htmlhead",
-            "version": "1.7.7",
+            "version": "1.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-htmlhead.git",
-                "reference": "1900e7a0f369b598c54467deece9d357a901d0ab"
+                "reference": "63f6340b27e00f2561b78c4f0dd0c1501cbee197"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-htmlhead/zipball/1900e7a0f369b598c54467deece9d357a901d0ab",
-                "reference": "1900e7a0f369b598c54467deece9d357a901d0ab",
+                "url": "https://api.github.com/repos/bnomei/kirby3-htmlhead/zipball/63f6340b27e00f2561b78c4f0dd0c1501cbee197",
+                "reference": "63f6340b27e00f2561b78c4f0dd0c1501cbee197",
                 "shasum": ""
             },
             "require": {
@@ -396,7 +396,7 @@
                 "typekit",
                 "webfontloader"
             ],
-            "time": "2019-08-16T14:46:18+00:00"
+            "time": "2019-08-16T18:08:44+00:00"
         },
         {
             "name": "bnomei/kirby3-instagram",
