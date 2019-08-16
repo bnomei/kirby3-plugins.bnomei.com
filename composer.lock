@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c0ee1b548344a393cb0f1147db5a40a",
+    "content-hash": "ba4f92723c5f5d355007eead276a1725",
     "packages": [
         {
             "name": "bnomei/kirby3-autoid",
@@ -344,16 +344,16 @@
         },
         {
             "name": "bnomei/kirby3-htmlhead",
-            "version": "1.7.6",
+            "version": "1.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-htmlhead.git",
-                "reference": "48a09ef5bb52238ac41311d037770f8da7a28ff3"
+                "reference": "1900e7a0f369b598c54467deece9d357a901d0ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-htmlhead/zipball/48a09ef5bb52238ac41311d037770f8da7a28ff3",
-                "reference": "48a09ef5bb52238ac41311d037770f8da7a28ff3",
+                "url": "https://api.github.com/repos/bnomei/kirby3-htmlhead/zipball/1900e7a0f369b598c54467deece9d357a901d0ab",
+                "reference": "1900e7a0f369b598c54467deece9d357a901d0ab",
                 "shasum": ""
             },
             "require": {
@@ -396,20 +396,20 @@
                 "typekit",
                 "webfontloader"
             ],
-            "time": "2019-03-11T10:11:42+00:00"
+            "time": "2019-08-16T14:46:18+00:00"
         },
         {
             "name": "bnomei/kirby3-instagram",
-            "version": "1.0.3",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-instagram.git",
-                "reference": "0803e64de7d738b3aa296c9336744289df09201b"
+                "reference": "59a8df7c3d6df7aaa7a723007db51f177a044908"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-instagram/zipball/0803e64de7d738b3aa296c9336744289df09201b",
-                "reference": "0803e64de7d738b3aa296c9336744289df09201b",
+                "url": "https://api.github.com/repos/bnomei/kirby3-instagram/zipball/59a8df7c3d6df7aaa7a723007db51f177a044908",
+                "reference": "59a8df7c3d6df7aaa7a723007db51f177a044908",
                 "shasum": ""
             },
             "require": {
@@ -446,7 +446,7 @@
                 "kirby3-plugin",
                 "token"
             ],
-            "time": "2019-02-18T14:29:11+00:00"
+            "time": "2019-08-16T13:45:31+00:00"
         },
         {
             "name": "bnomei/kirby3-janitor",
@@ -2695,16 +2695,16 @@
         },
         {
             "name": "laravel/homestead",
-            "version": "v8.6.0",
+            "version": "v9.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "01227bf1fdcddf61ad1238940fbfb538fc6d953b"
+                "reference": "0add54057b5a4f8a4adf78a6c382131257aec090"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/01227bf1fdcddf61ad1238940fbfb538fc6d953b",
-                "reference": "01227bf1fdcddf61ad1238940fbfb538fc6d953b",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/0add54057b5a4f8a4adf78a6c382131257aec090",
+                "reference": "0add54057b5a4f8a4adf78a6c382131257aec090",
                 "shasum": ""
             },
             "require": {
@@ -2741,7 +2741,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2019-06-21T00:49:25+00:00"
+            "time": "2019-07-22T17:55:23+00:00"
         },
         {
             "name": "myclabs/deep-copy",
