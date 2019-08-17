@@ -6,3 +6,5 @@
 - [Composer](https://getcomposer.org/) used to install [Kirby 3](https://getkirby.com/) and [Plugins](https://packagist.org/users/bnomei/packages/)
 - [Laravel-Mix](https://laravel-mix.com/) and [Tailwindcss](https://tailwindcss.com) for a [Brutalist Web Design](https://brutalist-web.design/) 
 - Code-Highlighting with [Rainbows](https://craig.is/making/rainbows)
+
+[![Gitter](https://badges.gitter.im/bnomei-kirby-3-plugins/community.svg)](https://gitter.im/bnomei-kirby-3-plugins/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
