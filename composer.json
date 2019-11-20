@@ -20,7 +20,7 @@
     "bnomei/kirby3-security-headers": "^1.0",
     "bnomei/kirby3-srcset": "^2.0",
     "bnomei/kirby3-thumb-imageoptim": "^1.2",
-    "getkirby/cms": "^3.0.0",
+    "getkirby/cms": "^3.2.0",
     "omz13/kirby3-xmlsitemap": "^1.0"
   },
   "config": {
@@ -29,12 +29,14 @@
   },
   "scripts": {
     "fix": "php-cs-fixer fix",
-    "deployhq": [
-      "composer install --no-progress --no-dev --optimize-autoloader",
-      "mv -f public/.htaccess.deploy public/.htaccess"
+    "test": "phpunit --configuration ./phpunit.xml",
+    "deploy-assets": [
+      "yarn",
+      "yarn prod"
     ],
-    "memcached": "vagrant ssh -- sudo /etc/init.d/memcached start",
-    "test": "phpunit --configuration ./phpunit.xml"
+    "post-install-cmd": [
+      "composer deploy-assets"
+    ]
   },
   "require-dev": {
     "laravel/homestead": "^9.0",
