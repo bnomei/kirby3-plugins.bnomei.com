@@ -57,7 +57,7 @@ Temporary Items
 .apdisk
 
 ### KIRBY 3 ###
-content
+storage/content
 kirby
 public/media
 public/ui/
