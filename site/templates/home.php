@@ -53,9 +53,9 @@
       <td><img src="https://flat.badgen.net/packagist/ghs/bnomei/kirby3-<?= $plugin ?>?color=272822"></td>
       <td><img src="https://flat.badgen.net/packagist/dt/bnomei/kirby3-<?= $plugin ?>?color=272822"></td>
       <td><img src="https://flat.badgen.net/packagist/ghi/bnomei/kirby3-<?= $plugin ?>?color=e6db74"></td>
-      <td><a href==https://travis-ci.com/bnomei/kirby3-<?= $plugin ?>"><img src="https://flat.badgen.net/travis/bnomei/kirby3-<?= $plugin ?>"></a></td>
-      <td><a href==https://coveralls.io/github/bnomei/kirby3-<?= $plugin ?>"><img src="https://flat.badgen.net/coveralls/c/github/bnomei/kirby3-<?= $plugin ?>"></a></td>
-      <td><a href==https://codeclimate.com/github/bnomei/kirby3-<?= $plugin ?>)"><img src="https://flat.badgen.net/codeclimate/maintainability/bnomei/kirby3-<?= $plugin ?>"></a></td>
+      <td><a href="https://travis-ci.com/bnomei/kirby3-<?= $plugin ?>"><img src="https://flat.badgen.net/travis/bnomei/kirby3-<?= $plugin ?>"></a></td>
+      <td><a href="https://coveralls.io/github/bnomei/kirby3-<?= $plugin ?>"><img src="https://flat.badgen.net/coveralls/c/github/bnomei/kirby3-<?= $plugin ?>"></a></td>
+      <td><a href="https://codeclimate.com/github/bnomei/kirby3-<?= $plugin ?>"><img src="https://flat.badgen.net/codeclimate/maintainability/bnomei/kirby3-<?= $plugin ?>"></a></td>
     </tr>
     <?php endforeach; ?>
     </tbody>

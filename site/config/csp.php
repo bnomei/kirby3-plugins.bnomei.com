@@ -37,5 +37,8 @@
         // instagram
         $policy->addSourceExpression(ContentSecurityPolicyHeaderBuilder::DIRECTIVE_IMG_SRC, 'scontent.cdninstagram.com');
 
+        // badgen
+        $policy->addSourceExpression(ContentSecurityPolicyHeaderBuilder::DIRECTIVE_IMG_SRC, 'flat.badgen.net');
+
         return $policy;
     };
